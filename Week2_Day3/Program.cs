@@ -10,6 +10,16 @@ namespace Week2_Day3
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Add(5,7));
+        }
+
+
+        //methods go outside Main, but on the same level
+        public static int Add(int firstNumber, int secondNumber)
+        {
+            int sum = firstNumber + secondNumber;
+
+            return sum;
         }
     }
 }
